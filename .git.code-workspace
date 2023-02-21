@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Blocs Flexbox/.git"
+		},
+		{
+			"path": "../Blocs Grid"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Blocs Grid"
+	}
+}

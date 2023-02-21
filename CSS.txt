@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+body{
+    margin: auto;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.image{
+    background-image: url(image-product-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 325px;
+    height: 415px;
+    padding: 0;
+    border-radius: 10px 0px 0px 10px; 
+  }
+
+  .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+
+  section{
+    background-color: white;
+    padding: 12px;
+    width: 320px;
+    height: 392px;
+    border-radius: 0px 10px 10px 0px;
+  }
+
+  p{
+    font-size: 14px;
+    color:hsl(0, 0%, 0%);
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  h1{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Fraunces', serif;
+  }
+
+  button{
+  background-color : hsl(149, 41%, 54%);
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  }
+
+  .price{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap:initial
+  }
+
+#reduc{
+  text-align: left;
+  font-size: 30px;
+  color:hsl(149, 41%, 54%);
+  font-family: 'Fraunces', serif;
+  padding-left: 60px;
+}
+
+#prix{ 
+  text-align: right;
+  width: 20%;
+  text-decoration: line-through;
+}
+
+.caddie{
+  width: 18px;
+  height: 18px;
+  background-color:hsl(149, 41%, 54%);
+}
+
+  p h1{
+    text-align: center;
+  }
